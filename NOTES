@@ -199,4 +199,12 @@ Q. How to push files to git repository?
 	9. git push origin master - TO SEND THE COMMITTED CHANGES OF MASTER BRANCH TO OUR REMOTE REPOSITORY.
 		-Give username and password.
 Q. What is git log file?
-	Git log file is the one which contains the version history for the current branch. 
+	Git log file is the one which contains the version history for the current branch.
+there are three commands in git logs. 	They are git log --since=YYYY-MM-DD
+						 git log --until=YYYY-MM-DD
+						 git log --author="author name"
+Q. What is git commit?
+	Git commit is used to adding files from staging area to local repository. There are three types in git commit.
+they are 	git commit -a --- this is used to commit files which are added in staging area by git add command and also commits the files which have changed since then.
+		git commit -m "commit message" --- this is used to record or snapshot permanently in the version history.
+		git commit -am  --- this is used to commit the files without adding them to staging area. 
