@@ -198,4 +198,5 @@ Q. How to push files to git repository?
 	8. git remote add origin "remote server URL" - TO CONNECT OUR LOCAL REPOSITORY TO THE REMOVE SERVER.
 	9. git push origin master - TO SEND THE COMMITTED CHANGES OF MASTER BRANCH TO OUR REMOTE REPOSITORY.
 		-Give username and password.
-
+Q. What is git log file?
+	Git log file is the one which contains the version history for the current branch. 
